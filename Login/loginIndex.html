@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PandaTrail Giriş</title>
+    <link rel="stylesheet" href="loginStyle.css">
+    <link rel="icon" type="image/x-icon" href="./loginPhotos/logoIcon.png">
+</head>
+<body>
+    <header>
+        <div class="header-container-main">
+            <div class="header-container">
+                <div class="burger-menu">
+                    <img src="./loginPhotos/burger-menu.png" alt="burger menu">
+                </div>
+                <div class="logo">
+                    <img src="./loginPhotos/logoicon.png" style="width: 180px;" alt="Logo23">
+                </div>
+                <div class="menu-login">
+                    <div class="menu">
+                        <a href="../Home/homeindex.html" class="menu-text">Əsas Səhifə</a>
+                        <a href="../Tariffs/tariffintex.html" class="menu-text">Tariflər</a>
+                        <a href="../TariffNetwork/tariffNetworkindex.html" class="menu-text">Xidmət Şəbəkəsi</a>
+                        <a href="../Shops/shopsIndex.html" class="menu-text">Mağazalar</a>
+                        <a href="../Contact/conactIndex.html" class="menu-text">Əlaqə</a>
+                    </div>
+                    <div class="login">
+                        <a href="../Login/loginIndex.html">Giriş</a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-mobile dis-none">
+                <a href="../Home/homeindex.html" class="menu-text">Əsas Səhifə</a>
+                <a href="../Tariffs/tariffintex.html" class="menu-text">Tariflər</a>
+                <a href="../TariffNetwork/tariffNetworkindex.html" class="menu-text">Xidmət Şəbəkəsi</a>
+                <a href="../Shops/shopsIndex.html" class="menu-text">Mağazalar</a>
+                <a href="../Contact/conactIndex.html" class="menu-text">Əlaqə</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="login-container">
+            <h2>Giriş</h2>
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="email" name="email" required>
+                </div>
+            <div class="form-group">
+                <label for="password">Şifrə</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <input type="checkbox" id="show-password"> Şifrəni göstər
+            </div>
+            <a href="../Home/homeindex.html"><button type="submit">Daxil ol</button></a>
+        </form>
+        <div class="register">Qeydiyyatdan keçməmisiniz? <a href="../Register/registerIndex.html">Qeydiyyat</a></div>
+        <div class="message"></div>
+    </div>
+    <script src="loginApp.js"></script>
+</main>
+</body>
+</html>
