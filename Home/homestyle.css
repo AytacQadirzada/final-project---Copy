@@ -267,7 +267,7 @@
     width: 75%;
     height: 300px;
 
-    margin: 200px auto 150px;
+    margin: 350px auto 150px;
 }
 .working-principle h2{
     font-size: 45px;
@@ -947,11 +947,12 @@
 .working-principle{
     width: 70%;
     height: 300px;
-    margin: 200px auto 100px;
+    margin: 390px auto 100px;
 }
 .working-principle h2{
     font-size: 45px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .working-principle-body{  
@@ -1633,7 +1634,7 @@
 .working-principle{
     width: 75%;
     height: 300px;
-    margin: 180px auto;
+    margin: 285px auto;
 }
 .working-principle h2{
     font-size: 45px;
@@ -2289,7 +2290,7 @@
 .working-principle{
     width: 75%;
     height: 300px;
-    margin: 100px auto;
+    margin: 260px auto;
 }
 .working-principle h2{
     font-size: 35px;
